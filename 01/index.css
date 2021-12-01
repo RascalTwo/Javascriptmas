@@ -33,6 +33,13 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
+td {
+    text-align: center;
+    vertical-align: middle;
+    color: var(--snow);
+    padding: 0.1em;
+}
+
 .countdown-display {
     font-size: 100px;
     margin: 0;
