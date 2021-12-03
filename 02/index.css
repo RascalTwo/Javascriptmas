@@ -59,3 +59,7 @@ p {
     background-color: var(--dark-green);
 }
 
+body, .container {
+    transition: all 1s;
+}
+
