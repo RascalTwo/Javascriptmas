@@ -1,0 +1,56 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--wine-red);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--snow);
+    font-size: 35px;    
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    margin-bottom: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+p {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-weight: 700;
+   transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    background-color: var(--gold);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
