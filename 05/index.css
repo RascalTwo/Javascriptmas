@@ -54,3 +54,11 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.from {
+    float: left
+}
+
+.to {
+    float: right
+}
