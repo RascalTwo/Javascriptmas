@@ -12,10 +12,15 @@
             <div class="btn-container">
                 <button class="play-btn" id="play-btn">
                     <span class="material-icons-outlined">play_arrow</span></button>
+                <input id="volume-rng" type="range" value="50" min="0" max="100" />
                 <button class="pause-btn" id="pause-btn">
                     <span class="material-icons-outlined">pause</span></button>
                 <button class="stop-btn" id="stop-btn">
                     <span class="material-icons-outlined">stop</span></button>                
+                <select id="sound-slt">
+                    <option value="bells.mp3" selected>Bells</option>
+                    <option value="jingle-bells.mp3">Jingle Bells</option>
+                </select>
             </div>
         </div>
         <script src="index.js"></script>

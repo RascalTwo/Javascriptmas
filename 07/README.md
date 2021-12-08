@@ -8,3 +8,7 @@
 
 - Add volume controls.
 - Allow the user to select different sounds.
+
+## Attributaions
+
+- [Jingle-Bells Sound](http://soundfxcenter.com/sound-effects/christmas/0)
