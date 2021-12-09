@@ -74,5 +74,10 @@ button:hover {
 }
 
 @keyframes ring {
-    /* animation here */
+    from {
+        transform: rotate(22.5deg);
+    }
+    to {
+        transform: rotate(-22.5deg);
+    }
 }
