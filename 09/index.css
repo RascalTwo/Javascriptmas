@@ -36,5 +36,14 @@ body {
 meter {
     height: 50px;
     width: 200px;
-    
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: var(--dark-green);
+    color: var(--dark-green);
+}
+
+meter::-webkit-meter-suboptimum-value {
+    background-color: var(--light-green);
+    color: var(--light-green);
 }
